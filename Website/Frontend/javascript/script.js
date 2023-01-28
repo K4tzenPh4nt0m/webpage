@@ -1,4 +1,4 @@
-function sidebar_open() {
+function sidebar_open() { 
     sidebar_div = document.getElementsByClassName("sidebar");
     sidebar_div[0].style.left = '0px';
     document.getElementById('main').style.marginLeft = '250px';

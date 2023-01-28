@@ -26,6 +26,10 @@ body {
     box-shadow: 3px 3px 3px #0505055d;
 }
 
+.articles {
+    
+}
+
 .sidebar {
     position: fixed;
     left: -251px;
