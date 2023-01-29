@@ -189,6 +189,22 @@ img {
     height: auto;
 }
 /*************Article - End*************/
+/*************Hangman - start***********/
+.hangman-hero-png {
+    width: 100%;
+    padding: 20px;
+    background-color: url('/Website/Frontend/images/hangman-hero.gif');
+}
+
+.start-game-button {
+    margin: 0;
+    position: absolute;
+    top: 100%;
+    justify-content: center;
+    align-items: center;
+
+}
+/*************Hangman - End*************/
 
 /*************Footer - Beginning*************/
 .footer {
