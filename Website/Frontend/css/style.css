@@ -26,8 +26,16 @@ body {
     box-shadow: 3px 3px 3px #0505055d;
 }
 
-.articles {
-    
+.article {
+    background-color: rgb(223, 223, 223);
+    margin-left: 80px;
+    box-shadow: 3px 3px 3px #0505055d;
+    border-radius: 3px;
+    padding: 10px;
+}
+
+.article h1 {
+    text-align: center;
 }
 
 .sidebar {
