@@ -1,3 +1,9 @@
+function myFunction() {
+    var x = document.getElementById("wrongcodecontainer");
+    x.className = "show";
+    setTimeout(function(){ x.className = x.className.replace("show", ""); }, 3000);
+
+}
 function sidebar_open() { 
     sidebar_div = document.getElementsByClassName("sidebar");
     sidebar_div[0].style.left = '0px';
