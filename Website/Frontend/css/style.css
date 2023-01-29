@@ -95,93 +95,63 @@ body {
 /*************Sidebar - End*************/
 
 /*************Index.html - Anfang*************/
-.home_article {
-    background-color: rgb(223, 223, 223);
-    padding: 10px;
-    width: 51%;
-    min-width: 1000px;
-    margin: 0 auto;
-    margin-top: 50px;
-    border-radius: 5px;
-    box-shadow: 4px 4px 4px #05050518;
-}
 /*************Index.html - Ende*************/
 
 /*************game.html - Anfang*************/
 .gametestercode {
     background-color: rgb(223, 223, 223);
     padding: 10px;
-    width: 51%;
-    min-width: 1000px;
+    width: 40%;
+    min-width: 800px;
     margin: 0 auto;
-    margin-top: 150px;
+    margin-top: 115px;
     border-radius: 5px;
     box-shadow: 4px 4px 4px #05050518;
 }
-.gametestercodeinput {
-    text-align: center;
+#gametestercodeinput {
     height: 100%;
     width: 100%;
-    border-radius: 5px;
-    border-radius: 5px;
-    text-align: left;
-    border: 0px;
-    font-size: x-large;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 22px;
 }
-.submitbutton {
-    width: 35%;
-    padding: 10px;
+.input {
+    width: 60%;
+    padding: 20px;
+}
+.button {
+    width: 40%;
+    padding: 20px;
+}
+#submitbutton {
+    color: rgb(246, 250, 253);
+    width: 60%;
     font-size: x-large;
-    border-radius: 5px;
-    border-color: rgba(255, 255, 255, 0);
-    background-color: aliceblue;
+    border-radius: 4px;
+    background-color: rgb(0, 156, 228);
     cursor: pointer;
 }
-#wrongcodecontainer {
+
+#errorcontainer {
     visibility: hidden;
-    min-width: 250px;
-    margin-left: -125px;
-    background-color: rgb(255, 255, 255);
-    color: rgb(0, 156, 228);
     text-align: center;
-    border-radius: 2px;
-    padding: 16px;
-    position: fixed;
-    z-index: 1;
-    left: 50%;
-    top: 30px;
-    font-size: 25px;
-  }
-  #wrongcodecontainer.show {
-    visibility: visible;
-    -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
-    animation: fadein 0.5s, fadeout 0.5s 2.5s;
-  }
-  
-  @-webkit-keyframes fadein {
-    from {top: 0; opacity: 0;} 
-    to {top: 30px; opacity: 1;}
-  }
-  
-  @keyframes fadein {
-    from {top: 0; opacity: 0;}
-    to {top: 30px; opacity: 1;}
-  }
-  
-  @-webkit-keyframes fadeout {
-    from {top: 30px; opacity: 1;} 
-    to {top: 0; opacity: 0;}
-  }
-  
-  @keyframes fadeout {
-    from {top: 30px; opacity: 1;}
-    to {top: 0; opacity: 0;}
-  }
+}
+#errormessage {
+    visibility: hidden;
+    border: 3px solid rgb(255, 41, 41);
+    border-radius: 10px;
+    color: rgb(255, 41, 41);
+    font-size: 22px;
+    transition: .5s;
+    margin-right: 45%;
+    margin-left: 45%;
+    margin-top: 115px;
+    min-width: 100px;
+    padding: 10px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
 /*************game.html - End*************/
-
-/*************hangman-hero.html - Beginning*************/
-
-/*************hangman-hero.html - End*************/
 
 /*************Article - Beginning*************/
 .article {
