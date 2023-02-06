@@ -16,9 +16,7 @@ body {
     list-style: none;
     text-decoration: none;
 }
-#main {
-    transition: all .5s;
-}
+
 
 .headline {
     background:rgb(0, 156, 228);
@@ -27,6 +25,16 @@ body {
     font-size: 50px;
     padding: 15px;
     box-shadow: 3px 3px 3px #0505055d;
+}
+.container {
+    background-color: rgb(223, 223, 223);
+    padding: 10px;
+    width: 40%;
+    min-width: 800px;
+    margin: 0 auto;
+    margin-top: 115px;
+    border-radius: 5px;
+    box-shadow: 4px 4px 4px #05050518;
 }
 /*************Allgemein - Ende*************/
 
@@ -111,8 +119,8 @@ body {
 #gametestercodeinput {
     height: 100%;
     width: 100%;
-    border-radius: 4px;;
-    font-size: 22px;
+    border-radius: 4px;
+    font-size: 26px;
 }
 .input {
     width: 60%;
@@ -188,21 +196,9 @@ img {
     height: auto;
 }
 /*************Article - End*************/
-/*************Hangman - start***********/
-.hangman-hero-png {
-    width: 100%;
-    padding: 20px;
-    background-color: url('/Website/Frontend/images/hangman-hero.gif');
-}
+/*************Hangman - Beginning*******/
 
-.start-game-button {
-    margin: 0;
-    position: absolute;
-    top: 100%;
-    justify-content: center;
-    align-items: center;
 
-}
 /*************Hangman - End*************/
 
 /*************Footer - Beginning*************/

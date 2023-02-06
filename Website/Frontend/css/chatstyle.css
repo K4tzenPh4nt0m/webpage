@@ -1,0 +1,82 @@
+/***********chat*********/
+#chatbody {
+  background-color: #797979;
+}
+
+.chatcontainer {
+  border-radius: 10px;
+  background-color: rgb(98, 98, 98);
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  height: 600px;
+  margin-bottom: 50px;
+  border: 3px solid #797979;
+  padding: 10px;
+  overflow: auto;
+  overflow-y: visible;
+}
+
+.chatcontainer::-webkit-scrollbar{
+  display: none;
+}
+
+.headerdate, .chatclosedmessage {
+  margin-top: 1px;
+  text-align: center;
+  color: #ababab;
+  
+}
+
+.container, .container-darker {
+  border: 2px solid #dedede;
+  background-color: #ddd;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px 0;
+  width: 90%;
+}
+
+.container-darker {
+  border-color: #ccc;
+  background-color: #f1f1f1;  
+  text-align: right;
+  margin-left: 8%;
+}
+
+.container::after, .container-darker::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.container img, .container-darker img {
+  float: left;
+  max-width: 60px;
+  width: 100%;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+.container img.right, .container-darker img.right {
+  float: right;
+  margin-left: 20px;
+  margin-right:0;
+}
+
+.time-right {
+  float: right;
+  color: #aaa;
+}
+
+.time-left {
+  float: left;
+}
+
+#image1 {
+  border-radius: 2%;
+  max-width: 900px;
+  height: 400px;
+  width: 600px;
+}
+/***********-chat-*********/
